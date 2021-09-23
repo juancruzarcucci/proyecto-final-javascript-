@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none ; 
+    font-size: 30px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+/* COMIENZA TITULO Y MENU */
+nav {
+    margin: -12px 0 20px;
+    height: 15vh;
+  }
+  
+  nav .container--menu {
+    background-color: #fff;
+    -webkit-box-shadow: 0 5px 5px 0 #333;
+            box-shadow: 0 5px 5px 0 #333;
+    margin-top: auto;
+  }
+  
+  nav .container--titulo {
+    width: 100%;
+    border: 15px solid #000;
+    border-radius: 20px;
+    padding: 0 20px;
+    border-top: none;
+    border-bottom: none;
+    text-align: center;
+  }
+  
+  nav .navbar-nav {
+    margin-left: auto;
+  }
+  
+  nav .nav-link {
+    font-size: 1.3rem;
+  }
+  
+  nav a.nav-link {
+    /* color:#fff; */
+    /* background-color: black; */
+    z-index: 10;
+  }
+  
+  body {
+      height: 140vh;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#000));
+    background: linear-gradient(#fff, #000);
+  }
+  
+
+  /* MAIN */
+  main{
+      height: 75vh;
+      /* background: #fff; */
+  }
+  .container-index{
+      width: 100%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+  }
+  .div-img{
+      width: 40%;
+      height: 65vh;
+      background: #333;
+      margin: 10vh 5vh 0 -5vh;
+      background-image: url(/img/ERROR404.jpg) ;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: top;
+      border-radius: 20px;
+      box-shadow: 0 5px 5px 0 #333;
+  }
+  .ERROR{
+      /* display: none; */
+      font-size: 3.5rem;
+      /* margin: ; */
+  }
+  .div-texto{
+      width: 40%;
+      height: 5vh;
+  }
+  .texto-error404{
+      text-align: center;
+      font-size: 1.5rem;
+      color: #fff;
+      margin: -30vh 10vh 0 15vh;
+  }
+  .btn{
+    margin: 10vh -25vh 0 33vh;
+  }
+
+
+
+  /* FOOTER */
+  footer {
+    /* height: 25vh; */
+    margin-top: 5%;
+  }
+  footer .container__titulo--3 {
+    color: #fff;
+  }
+  footer .container__div--redes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 10%;
+    width: 100%;
+  }
+  footer .container__div--redes .div__item--redes {
+    width: 8%;
+    height: 8%;
+    margin: 1% 6%;
+  }
+  footer .container__div--redes .div__item--redes .logo-redes {
+    width: 100%;
+    height: 100%;
+  }
